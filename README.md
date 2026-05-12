@@ -56,7 +56,7 @@ An AI-powered smart city surveillance project focused on:
 ```bash
 smart-city-surveillance/
 │
-├── app.py.ipynb
+├── app.ipynb
 │   └── Entry point for launching the Gradio dashboard
 │
 ├── requirements.txt
