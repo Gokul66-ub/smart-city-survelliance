@@ -1,0 +1,21 @@
+# Core Machine Learning Frameworks
+ultralytics>=8.0.0      # YOLOv8 for 75-class detection [cite: 36, 442]
+tensorflow>=2.12.0     # For the Accident Detection Binary CNN (.h5) [cite: 271, 537]
+torch>=2.0.0           # Backend for YOLOv8
+torchvision>=0.15.0
+
+# Dashboard and UI
+gradio>=3.35.0         # Interactive Web Dashboard [cite: 34, 538]
+
+# Computer Vision and Image Processing
+opencv-python>=4.7.0   # Real-time video stream processing [cite: 52, 272]
+albumentations>=1.3.0  # Phase 2 photometric/geometric augmentations [cite: 490]
+roboflow>=1.0.0        # For dataset downloading and preparation [cite: 482]
+
+# Data Handling and Math
+numpy>=1.23.5          # Numerical operations
+pandas>=1.5.3           # Incident logging and CSV database management [cite: 295, 604]
+pyyaml>=6.0            # Parsing config/data.yaml [cite: 614]
+
+# Utilities
+python-dotenv>=1.0.0   # Managing API keys securely

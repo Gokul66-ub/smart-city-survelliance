@@ -1,0 +1,86 @@
+names:
+- all motor vehicle prohibited
+- axle load limit
+- bullock cart and hand cart prohibited
+- cattle ahead
+- chevron direction
+- compulsary ahead
+- compulsary ahead or turn left
+- compulsary ahead or turn right
+- compulsary keep left
+- compulsary keep right
+- compulsary sound horn
+- compulsary turn left ahead
+- compulsary turn right ahead
+- cross road
+- cycle crossing
+- cycle prohibited
+- dangerous dip
+- falling rocks
+- gap in median
+- give way
+- guarded level crossing
+- height limit
+- horn prohibited
+- hospital ahead
+- hump or rough road
+- left hand curve
+- left reverse bend
+- left turn prohibited
+- length limit
+- loose gravel
+- men at work
+- narrow bridge ahead
+- narrow road ahead
+- no entry
+- no parking
+- no stopping or standing
+- overtaking prohibited
+- pass either side
+- pedestrian crossing
+- pedestrian prohibited
+- petrol pump ahead
+- quay side or river bank
+- restriction ends
+- right hand curve
+- right reverse bend
+- right turn prohibited
+- road widens ahead
+- roundabout
+- school ahead
+- side road left
+- side road right
+- slippery road
+- speed limit 100
+- speed limit 120
+- speed limit 15
+- speed limit 20
+- speed limit 30
+- speed limit 40
+- speed limit 50
+- speed limit 60
+- speed limit 70
+- speed limit 80
+- staggered intersection
+- steep ascent
+- steep descent
+- stop
+- straight prohibited
+- t intersection
+- traffic signal
+- truck prohibited
+- u turn
+- u turn prohibited
+- unguarded level crossing
+- width limit
+- y intersection
+nc: 75
+roboflow:
+  license: MIT
+  project: indian-traffic-signboards
+  url: https://universe.roboflow.com/major-project-166na/indian-traffic-signboards/dataset/1
+  version: 1
+  workspace: major-project-166na
+test: ../test/images
+train: ../train/images
+val: ../valid/images

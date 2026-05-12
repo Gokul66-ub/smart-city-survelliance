@@ -1,0 +1,14 @@
+# Models and Weights
+*.pt
+*.h5
+*.weights
+
+# Data and Logs
+*.csv
+raw_datasets/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# Keep the logs folder but ignore the csv files inside it
+!logs/.gitkeep
